@@ -11,9 +11,10 @@ int main()
         34,
         56,
     };
-    int mathmarks[5] = {234, 345, 456, 789, 263};
+    int mathMarks[5] = {234, 345, 456, 789, 263};     // when variable name consists of two words try camel case notation for variables. read blog from below given link
+                                                     //  https://www.geeksforgeeks.org/naming-convention-in-c/
 
-    // // you can change the value in arrays before prnting
+    // // you can change the values in an array before printing them to console.
     marks[2] = 66;
     // These are marks
     cout << "These are marks " << endl;
@@ -23,13 +24,13 @@ int main()
     cout << marks[2] << endl;
     cout << marks[3] << endl;
     cout << marks[4] << endl;
-    // // These are mathmarks
+    // // These are math marks
     cout << "These are mathmarks " << endl;
-    cout << mathmarks[0] << endl;
-    cout << mathmarks[1] << endl;
-    cout << mathmarks[2] << endl;
-    cout << mathmarks[3] << endl;
-    cout << mathmarks[4] << endl;
+    cout << mathMarks[0] << endl;
+    cout << mathMarks[1] << endl;
+    cout << mathMarks[2] << endl;
+    cout << mathMarks[3] << endl;
+    cout << mathMarks[4] << endl;
 
     // // Now we can slove arrays with the help of the loops
 
